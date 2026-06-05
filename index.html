@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Agramonte — Sysadmin & IT Infrastructure</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav>
+    <div class="nav-logo">agramonte.sys</div>
+    <div class="nav-links">
+      <a href="#skills">Stack</a>
+      <a href="#experience">Exp</a>
+      <a href="#projects">Labs</a>
+      <a href="#certs">Certs</a>
+      <a href="#contact">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="top">
+    <div class="hero-blueprint"></div>
+
+    <div class="hero-left">
+      <div class="hero-tag">Disponible para nuevas oportunidades</div>
+      <h1 class="hero-name">
+        Alexander<br>
+        <span class="last">Agramonte</span>
+      </h1>
+      <div class="hero-rule"></div>
+      <p class="hero-role">Systems Administrator · IT Infrastructure · Network Engineer</p>
+      <p class="hero-desc">
+        Especialista IT con experiencia sólida en soporte técnico, administración de sistemas Windows/Linux,
+        redes y seguridad. Apasionado por automatizar procesos, documentar soluciones y construir
+        infraestructuras confiables que funcionen 24/7.
+      </p>
+      <div class="hero-cta">
+        <a href="mailto:alex-agra@hotmail.com" class="btn btn-primary">Contactar →</a>
+        <a href="#projects" class="btn btn-outline">Ver laboratorios</a>
+      </div>
+      <div class="badge-strip">
+        <span class="badge">Windows Server 2022</span>
+        <span class="badge">Active Directory</span>
+        <span class="badge">CCNA</span>
+        <span class="badge">Office 365 Admin</span>
+        <span class="badge">Linux</span>
+        <span class="badge">PHP / Web</span>
+      </div>
+    </div>
+
+    <!-- Server Rack Visual -->
+    <div class="hero-right">
+      <div class="rack-frame">
+        <div class="rack-frame-header">
+          <span>RACK-01 · STO. DOMINGO DC</span>
+          <span>6U</span>
+        </div>
+        <div class="rack-unit active">
+          <div class="rack-led led-green"></div>
+          <div class="rack-name">WIN-SRV-PRIMARY</div>
+          <div class="rack-model">WS 2022</div>
+        </div>
+        <div class="rack-unit active">
+          <div class="rack-led led-green"></div>
+          <div class="rack-name">AD-DC-01</div>
+          <div class="rack-model">AD DS</div>
+        </div>
+        <div class="rack-unit active">
+          <div class="rack-led led-orange"></div>
+          <div class="rack-name">DHCP-DNS-01</div>
+          <div class="rack-model">DNS/DHCP</div>
+        </div>
+        <div class="rack-unit">
+          <div class="rack-led led-green"></div>
+          <div class="rack-name">CISCO-SW-CORE</div>
+          <div class="rack-model">CCNA</div>
+        </div>
+        <div class="rack-unit">
+          <div class="rack-led led-green"></div>
+          <div class="rack-name">M365-TENANT</div>
+          <div class="rack-model">Exchange</div>
+        </div>
+        <div class="rack-unit">
+          <div class="rack-led led-off"></div>
+          <div class="rack-name">UBUNTU-LAB-01</div>
+          <div class="rack-model">WIP</div>
+        </div>
+      </div>
+      <div class="status-panel">
+        <span class="ok">● UPTIME: 99.8%</span><br>
+        <span class="ok">● AD USERS: ONLINE</span><br>
+        <span class="warn">● LINUX LAB: BUILDING</span><br>
+        <span class="ok">● M365: SYNCED</span><br>
+        <span class="ok">● NETWORK: STABLE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills">
+    <p class="section-eyebrow">02 / Stack técnico</p>
+    <h2 class="section-title">Habilidades</h2>
+    <div class="skills-grid reveal">
+
+      <div class="skill-card">
+        <div class="skill-num">SYS-01</div>
+        <div class="skill-icon-wrap">
+          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="1"/><path d="M8 21h8M12 17v4"/></svg>
+        </div>
+        <div class="skill-name">Servidores Windows</div>
+        <div class="skill-items">Windows Server 2019/2022<br>Active Directory / GPO<br>DNS · DHCP · IIS<br>PowerShell básico</div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-num">NET-01</div>
+        <div class="skill-icon-wrap">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20"/><path d="M2 12h20"/></svg>
+        </div>
+        <div class="skill-name">Redes</div>
+        <div class="skill-items">CCNA certified<br>TCP/IP · VLANs<br>Cableado estructurado<br>Routing & Switching</div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-num">CLD-01</div>
+        <div class="skill-icon-wrap">
+          <svg viewBox="0 0 24 24"><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M12 12h.01"/></svg>
+        </div>
+        <div class="skill-name">Microsoft 365</div>
+        <div class="skill-items">Admin Center<br>Exchange Online<br>Teams · SharePoint<br>Intune básico</div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-num">LNX-01</div>
+        <div class="skill-icon-wrap">
+          <svg viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+        </div>
+        <div class="skill-name">Linux</div>
+        <div class="skill-items">Ubuntu / CentOS<br>CLI · SSH · Bash<br>Apache · usuarios<br>En progreso activo</div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-num">SUP-01</div>
+        <div class="skill-icon-wrap">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="skill-name">Soporte IT</div>
+        <div class="skill-items">Helpdesk L1/L2<br>HW/SW troubleshoot<br>Ticketing<br>Documentación</div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-num">DEV-01</div>
+        <div class="skill-icon-wrap">
+          <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <div class="skill-name">Desarrollo Web</div>
+        <div class="skill-items">HTML · CSS · JS<br>PHP Backend<br>Diseño y soporte web<br>WordPress</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section id="experience">
+    <p class="section-eyebrow">03 / Experiencia</p>
+    <h2 class="section-title">Historial laboral</h2>
+    <div class="timeline reveal">
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <strong>2023</strong>
+          Actual
+        </div>
+        <div class="timeline-node"></div>
+        <div class="timeline-content">
+          <h3>Soporte IT — Helpdesk</h3>
+          <div class="timeline-company">BITBOX CARIBE</div>
+          <ul>
+            <li>Instalación y actualización de software empresarial</li>
+            <li>Administración de Active Directory y usuarios</li>
+            <li>Gestión de correo corporativo y Office 365</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <strong>2020</strong>
+          2023
+        </div>
+        <div class="timeline-node"></div>
+        <div class="timeline-content">
+          <h3>Soporte IT</h3>
+          <div class="timeline-company">HOTEL RAMADA · KAXXFEM GROUP</div>
+          <ul>
+            <li>Soporte y mantenimiento de hardware y software</li>
+            <li>Diseño y soporte de página web institucional</li>
+            <li>Administración de redes y cableado estructurado</li>
+            <li>Administración de Office 365 para la organización</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">
+          <strong>2015</strong>
+          2016
+        </div>
+        <div class="timeline-node"></div>
+        <div class="timeline-content">
+          <h3>Digitador / Soporte</h3>
+          <div class="timeline-company">CONSULTORES PARA EL DESARROLLO (CPED)</div>
+          <ul>
+            <li>Digitalización de documentos para sistema de registro inmobiliario</li>
+            <li>Control de calidad de datos</li>
+            <li>Soporte al usuario final</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── PROJECTS / LABS ── -->
+  <section id="projects">
+    <p class="section-eyebrow">04 / Laboratorios</p>
+    <h2 class="section-title">Proyectos & Labs</h2>
+    <div class="projects-grid reveal">
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-num">LAB-001</span>
+          <span class="project-status status-wip">EN PROGRESO</span>
+        </div>
+        <div class="project-title">Active Directory desde cero</div>
+        <div class="project-desc">Instalación y configuración de AD DS en Windows Server 2022. Políticas GPO, OUs, usuarios y grupos.</div>
+        <div class="project-tags">
+          <span class="tag">Windows Server</span>
+          <span class="tag">AD DS</span>
+          <span class="tag">GPO</span>
+        </div>
+      </div>
+
+      <div class="project-card placeholder">
+        <div class="project-header">
+          <span class="project-num">LAB-002</span>
+          <span class="project-status status-soon">PRÓXIMAMENTE</span>
+        </div>
+        <div class="project-title">Servidor DHCP + DNS</div>
+        <div class="project-desc">Configuración de servicios de red esenciales en entorno virtualizado con VirtualBox.</div>
+        <div class="project-tags">
+          <span class="tag">DHCP</span>
+          <span class="tag">DNS</span>
+          <span class="tag">Networking</span>
+        </div>
+      </div>
+
+      <div class="project-card placeholder">
+        <div class="project-header">
+          <span class="project-num">LAB-003</span>
+          <span class="project-status status-soon">PRÓXIMAMENTE</span>
+        </div>
+        <div class="project-title">Servidor Ubuntu + Apache</div>
+        <div class="project-desc">Despliegue de servidor web Linux. SSH, firewall UFW, hosting de aplicación PHP.</div>
+        <div class="project-tags">
+          <span class="tag">Linux</span>
+          <span class="tag">Apache</span>
+          <span class="tag">SSH</span>
+          <span class="tag">UFW</span>
+        </div>
+      </div>
+
+      <div class="project-card placeholder">
+        <div class="project-header">
+          <span class="project-num">LAB-004</span>
+          <span class="project-status status-soon">PRÓXIMAMENTE</span>
+        </div>
+        <div class="project-title">Backup automatizado con PowerShell</div>
+        <div class="project-desc">Script de backup automatizado con programación de tareas y logging de resultados.</div>
+        <div class="project-tags">
+          <span class="tag">PowerShell</span>
+          <span class="tag">Automation</span>
+          <span class="tag">Windows</span>
+        </div>
+      </div>
+
+    </div>
+    <p class="projects-note">
+      // Labs documentados en GitHub con guías paso a paso · github.com/alex-agramonte
+    </p>
+  </section>
+
+  <!-- ── CERTIFICATIONS ── -->
+  <section id="certs">
+    <p class="section-eyebrow">05 / Formación</p>
+    <h2 class="section-title">Certificaciones & Educación</h2>
+    <div class="certs-list reveal">
+
+      <div class="cert-item">
+        <div class="cert-year">2025</div>
+        <div class="cert-bar"></div>
+        <div class="cert-name">Ingeniería en Informática</div>
+        <div class="cert-org">UTESA</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-year">2025</div>
+        <div class="cert-bar"></div>
+        <div class="cert-name">Windows Server 2022</div>
+        <div class="cert-org">ITLA</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-year">2024</div>
+        <div class="cert-bar"></div>
+        <div class="cert-name">Diplomado Desarrollo Web BackEnd PHP</div>
+        <div class="cert-org">ITLA</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-year">2019</div>
+        <div class="cert-bar"></div>
+        <div class="cert-name">Diplomado Desarrollo Web (HTML, CSS, JS)</div>
+        <div class="cert-org">ITLA</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-year">—</div>
+        <div class="cert-bar"></div>
+        <div class="cert-name">Cisco Certified Network Associate (CCNA)</div>
+        <div class="cert-org">CISCO</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-year">2017</div>
+        <div class="cert-bar"></div>
+        <div class="cert-name">English Immersion Program</div>
+        <div class="cert-org">MESCYT</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <p class="section-eyebrow">06 / Contacto</p>
+    <h2 class="section-title">Hablemos</h2>
+    <div class="contact-grid reveal">
+      <div class="contact-item">
+        <div class="contact-label">Email</div>
+        <div class="contact-value">
+          <a href="mailto:alex-agra@hotmail.com">alex-agra@hotmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">Teléfono</div>
+        <div class="contact-value contact-plain">+1 (809) 293-7709</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">Ubicación</div>
+        <div class="contact-value contact-location">Sto. Domingo Este, RD</div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-label">GitHub</div>
+        <div class="contact-value">
+          <a href="https://github.com/alex-agramonte" target="_blank">github.com/alex-agramonte</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span>Alexander Agramonte &copy; 2025 · agramonte.sys</span>
+    <span class="footer-right">SYSTEMS ADMINISTRATOR · SANTO DOMINGO, RD</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
